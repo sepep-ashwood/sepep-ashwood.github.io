@@ -7,7 +7,7 @@
 }
 
 body {
-	background:rgb(17, 34, 51);
+	
 }
 
 /* navigation */
@@ -85,7 +85,7 @@ nav .main-nav a:hover::after {
 .pullout {
 	position:absolute;
 	top:100%;
-	right:0;
+	right:5%;
 	background-color:var(--background);
 	transform:scale(1, 0);
 	transform-origin:top;
@@ -119,34 +119,19 @@ i {
 	cursor:pointer; 
 }
 
-/*.nav-toggle-label span,
-.nav-toggle-label span::before,
-.nav-toggle-label span::after {
-	display:block;
-	width:20px;
-	height:3px;
-	background:var(--text);
-	border-radius:2px;
-	position:relative;
-}
-*/
 .nav-toggle {
 	display:none;
 }
 
-/*.nav-toggle-label span::before,
-.nav-toggle-label span::after {
-	content:"";
-}
-
-.nav-toggle-label span::before {
-	bottom:9px;
-}
-
-.nav-toggle-label span::after {
-	top:6px;
-}*/
-
 .nav-toggle:checked ~ .pullout {
 	transform:scale(1, 1);
+}
+
+header {
+	height:100vh;
+	background-image:url(https://www.ashwood.vic.edu.au/uploaded_files/media/ashwood_newsletter_crop.jpg);
+}
+
+main {
+	height:1000vh;
 }
