@@ -6,9 +6,6 @@
 	font-family:"Poppins", sans-serif;
 }
 
-body {
-	
-}
 
 /* navigation */
 nav {
@@ -75,6 +72,7 @@ nav .main-nav a:hover::after {
 
 .logo {
 	position:absolute;
+	width:100px;
 	font-size:2em;
 	font-weight:900;
 	left:2%;
@@ -127,9 +125,12 @@ i {
 	transform:scale(1, 1);
 }
 
+
+/* header */
 header {
 	height:100vh;
-	background-image:url(https://www.ashwood.vic.edu.au/uploaded_files/media/ashwood_newsletter_crop.jpg);
+	background:linear-gradient(to bottom right, rgba(17, 34, 51, 0.7), rgba(17, 34, 51, 0.7)), url(../imgs/header-img.jpg);
+	background-size:cover;
 }
 
 main {
