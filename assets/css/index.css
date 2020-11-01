@@ -72,7 +72,7 @@ nav .main-nav a:hover::after {
 
 .logo {
 	position:absolute;
-	width:75px;
+	width:7vh;
 	font-size:2em;
 	font-weight:900;
 	left:2%;
@@ -143,10 +143,14 @@ header {
 header h1 {
 	color:white;
 	font-weight:200;
-	font-size:50px;
+	font-size:5em;
 	padding-bottom:0px;
 }
 
+header p {
+	color:white;
+	font-size:2em;
+}
 
 /* main */
 main {

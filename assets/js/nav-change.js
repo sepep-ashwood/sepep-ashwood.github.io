@@ -2,7 +2,7 @@ const nav = document.querySelector("nav");
 const header = document.querySelector("header");
 
 const headerOptions = {
-	rootMargin: "-500px 0px 0px 0px"
+	rootMargin: "-620px 0px 0px 0px"
 }
 
 const headerObserver = new IntersectionObserver(function(entries, headerObserver) {
