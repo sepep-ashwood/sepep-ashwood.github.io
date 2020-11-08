@@ -14,7 +14,7 @@ body {
 	text-align:center;
 }
 
-@keyframes {
+@keyframes fadeout{
 	from {
 		opacity:1;
 	}
