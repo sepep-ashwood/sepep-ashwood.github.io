@@ -151,37 +151,26 @@ header p {
 /* main */
 main {
 	background:snow;
+	padding-top:40px;
+	padding-bottom:40px;
 }
 
-.quick-nav {
-	width:50vw;
-	border:black 3px solid;
-	border-radius:10px;
-	margin:5vh auto;
-	padding:;
-	background:#f4f4f4;
+
+main .about-sections {
+	width:85vw;
+	margin:auto;
+	padding-bottom:25px;
+	padding-top:20px;
 }
 
-.quick-nav h1 {
-	text-align:center;
-	font-size:40px;
+#roles p {
+	text-align:justify;
 }
 
-.quick-nav li {
-	list-style:none;
-	text-align:center;
-	padding:7px 0;
-	font-size:18px;
+#spikeball p {
+	text-align:justify;
 }
 
-.quick-nav a {
-	text-decoration:none;
-	color:black;
-}
-
-.quick-nav a:hover {
-	color:coral;
-}
 
 
 /* footer */
