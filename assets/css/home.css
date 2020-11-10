@@ -122,6 +122,7 @@ i {
 	display:block;
 }
 
+
 /* header */
 header {
 	height:100vh;
@@ -147,6 +148,7 @@ header p {
 	color:white;
 	font-size:2em;
 }
+
 
 /* main */
 main {
@@ -237,4 +239,23 @@ footer {
 
 .socials {
 	display:flex;
+}
+
+.footer-third ul {
+	list-style:none;
+}
+
+.footer-third li {
+	text-decoration:none;
+	padding:5px 0;
+}
+
+.footer-third a {
+	text-decoration:none;
+	transition:0.25s;
+}
+
+.footer-third ul a:hover {
+	color:#0892d0;
+	transition:0.25s;
 }
