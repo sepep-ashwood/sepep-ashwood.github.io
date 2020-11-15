@@ -105,13 +105,20 @@ i {
 
 .menu-sub {
 	position:absolute;
-	background:white;
+	background:rgba(0, 0, 0, 0.8);
 	width:20%;
 	display:none;
+	border-radius:5px;
 }
 
 .menu-sub a {
-	color:#333;
+	color:white;
+	font-size:20px;	
+}
+
+
+nav .menu-sub a:hover {
+	color:orange;
 }
 
 .main-nav li:hover .menu-sub {
@@ -153,6 +160,38 @@ header p {
 /* main */
 main {
 	background:snow;
+	display:flex;
+}
+
+.glide__arrow {
+	border:none;
+}
+
+.slider {
+	width:50%;
+	margin:5px auto;
+	justify-content:center;
+	align-items:center;
+	padding:15px;
+	float:right;
+}
+
+.slider img {
+	width:45vw;
+}
+
+.glide__track {
+	text-align:center;
+}
+
+.glide__slide img {
+	border-radius:20px;
+}
+
+.brief-about {
+	width:45%;
+	text-align:justify;
+	padding:20px;
 }
 
 
@@ -177,12 +216,12 @@ footer {
 }
 
 .inner-footer img {
-	width:5vw;
+	width:10vw;
 	transition:0.3s;
 }
 
 .inner-footer img:hover {
-	width:6vw;
+	width:11vw;
 	transition:0.3s;
 }
 

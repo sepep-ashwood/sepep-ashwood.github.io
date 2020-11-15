@@ -105,13 +105,20 @@ i {
 
 .menu-sub {
 	position:absolute;
-	background:white;
+	background:rgba(0, 0, 0, 0.8);
 	width:20%;
 	display:none;
+	border-radius:5px;
 }
 
 .menu-sub a {
-	color:#333;
+	color:white;
+	font-size:20px;	
+}
+
+
+nav .menu-sub a:hover {
+	color:orange;
 }
 
 .main-nav li:hover .menu-sub {
@@ -280,12 +287,12 @@ footer {
 }
 
 .inner-footer img {
-	width:5vw;
+	width:10vw;
 	transition:0.3s;
 }
 
 .inner-footer img:hover {
-	width:6vw;
+	width:11vw;
 	transition:0.3s;
 }
 
