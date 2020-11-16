@@ -202,8 +202,8 @@ main {
 }
 
 .front1 {
-	background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../assets/imgs/replacement-image.png");
-	background-size:contain;
+	background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../assets/imgs/about2.jpg");
+	background-size:cover;
 	background-repeat:no-repeat;
 }
 .front2 {
