@@ -6,6 +6,10 @@
 	font-family:"Poppins", sans-serif;
 }
 
+body {
+	background:#f1f1f1;
+}
+
 /* navigation */
 nav {
 	--text:#fff;
@@ -158,9 +162,162 @@ header p {
 
 /* main */
 main {
-	background:snow;
+	background:#f1f1f1;
 }
 
+.weeks {
+	margin:auto;
+	padding:50px;
+	width:40vw;
+}
+
+.weeks ul {
+	list-style:none;
+	display:flex;
+	justify-content:space-around;
+}
+
+.weeks button {
+	background:transparent;
+    cursor:pointer;
+    border:none;
+    text-align:center;
+    padding:25px 0;
+
+    background:#0892d0;
+    border-radius:20px;
+    width:9vw;
+    margin:0 15px;
+
+    color:white;
+
+    transition:0.25s;
+}
+
+.weeks button:focus {
+	background:lightblue;
+	color:black;
+	outline:none;
+
+	transition:0.25s;
+}
+
+.classes ul {
+	list-style:none;
+	display:flex;
+	justify-content:space-around;
+}
+
+
+.classes button {
+	background:transparent;
+    cursor:pointer;
+    border:none;
+    text-align:center;
+    padding:10px;
+
+    background:#4CAF50;
+    border-radius:20px;
+    width:5vw;
+    margin:0 15px;
+
+    color:white;
+
+    transition:0.25s;
+}
+
+
+.classes button:focus {
+	background:#67c76b;
+	color:black;
+	outline:none;
+
+	transition:0.25s;
+}
+
+#w1, #w2, #w4, #w5 {
+	display:none;
+}
+
+#w1, #w2, #w3, #w4, #w5 {
+	width:45vw;
+	margin:auto;
+}
+
+#w1, #w2 {
+	text-align:center;
+}
+
+#w1 h1, #w2 h1 {
+	padding:0 0 10vh 0;
+}
+
+#w4, #w5 {
+	text-align:center;
+}
+
+#w4 h1, #w5 h1 {
+	padding:0 0 10vh 0;
+}
+
+#b, #c, #z {
+	display:none;
+}
+
+.match {
+	width:40vw;
+	margin:auto;
+	align-content:center;
+	background:white;
+	margin:25px auto 50px auto;
+	border-radius:7px;
+	box-shadow:5px 10px 10px #888888;
+	padding:5vh 5vh 1vh 5vh;
+}
+
+
+.scores {
+	display:flex;
+	text-align:center;
+	justify-content:space-around;
+}
+
+.scores div {
+	text-align:center;
+	width:33%;
+}
+
+.team1, .team2 {
+	margin:auto;
+}
+
+.point {
+	font-size:30px;
+}
+
+.report {
+	margin:3vh auto 1vh;
+	text-align:center;
+
+}
+
+.report a {
+	padding:1vh;
+	background:#0892d0;
+	border-radius:5px;
+	border:grey solid #0892d0;
+	text-decoration:none;
+	font-style:none;
+	color:white;
+
+	transition:0.25s;
+}
+
+.report a:hover {
+	background:#008CBA;
+
+	transition:0.25s;
+}
 
 /* footer */
 footer {

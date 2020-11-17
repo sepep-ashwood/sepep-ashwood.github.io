@@ -55,7 +55,7 @@
 	<header>
 		<div class="header-text">
 			<h1>Matches</h1>
-			<p>Upcoming matches, results of matches & match reports if you missed them!</p>
+			<p>Upcoming matches, results & match reports if you missed them!</p>
 		</div>
 	</header>
 	<script type="text/javascript" src="assets/js/nav-change.js"></script>
@@ -63,13 +63,755 @@
 
 	<!-- MAIN -->
 	<main>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 		<div class="weeks">
 			<ul>
-				<li>W1</li>
-				<li>W1</li>
-				<li>W1</li>
+				<li><button id="w1button" onclick="showw1()">W1</button></li>
+				<li><button id="w2button" onclick="showw2()">W2</button></li>
+				<li><button id="w3button" onclick="showw3()">W3</button></li>
+				<li><button id="w4button" onclick="showw4()">W4</button></li>
+				<li><button id="w5button" onclick="showw5()">W5</button></li>
 			</ul>
 		</div>
+
+		<div id="w1">
+			<h1>No matches played this week!</h1>
+		</div>
+		<div id="w2">
+			<h1>No matches played this week!</h1>
+		</div>
+
+
+		<div id="w3">
+			<div class="classes">
+				<ul>
+					<li><button id="9abutton" onclick="show9a()">9A</button></li>
+					<li><button id="9bbutton" onclick="show9b()">9B</button></li>
+					<li><button id="9cbutton" onclick="show9c()">9C</button></li>
+					<li><button id="9zbutton" onclick="show9z()">9Z</button></li>
+				</ul>
+			</div>
+
+
+			<div id="a">
+				<h1>9A</h1>
+
+				<h2>Round 1</h2>
+				<div class="match">
+					<div class="scores">
+						<div class="team1">
+							<h2>DIHVGT</h2>
+						</div>
+						<div class="result">
+							<p><b class="point">X</b> V <b class="point">X</b></p>
+							<p><b>Team</b> by X</p>
+						</div>
+						<div class="team2">
+							<h2>Team Name</h2>
+						</div>
+					</div>
+
+					<div class="report">
+						<h4><a href="">Match Report</a></h4>
+					</div>
+				</div>
+
+				<div class="match played">
+					<div class="scores">
+						<div class="team1">
+							<h2>No Bodies</h2>
+						</div>
+						<div class="result">
+							<p><b class="point">X</b> V <b class="point">X</b></p>
+							<p><b>Team</b> by X</p>
+						</div>
+						<div class="team2">
+							<h2>U.S.S.R</h2>
+						</div>
+					</div>
+
+					<div class="report">
+						<h4><a href="">Match Report</a></h4>
+					</div>
+				</div>
+
+
+				<h2>Round 2</h2>
+				<div class="match">
+					<div class="scores">
+						<div class="team1">
+							<h2>U.S.S.R</h2>
+						</div>
+						<div class="result">
+							<p><b class="point">X</b> V <b class="point">X</b></p>
+							<p><b>Team</b> by X</p>
+						</div>
+						<div class="team2">
+							<h2>DIHVGT</h2>
+						</div>
+					</div>
+
+					<div class="report">
+						<h4><a href="">Match Report</a></h4>
+					</div>
+				</div>
+
+				<div class="match played">
+					<div class="scores">
+						<div class="team1">
+							<h2>No Bodies</h2>
+						</div>
+						<div class="result">
+							<p><b class="point">X</b> V <b class="point">X</b></p>
+							<p><b>Team</b> by X</p>
+						</div>
+						<div class="team2">
+							<h2>Team Name</h2>
+						</div>
+					</div>
+
+					<div class="report">
+						<h4><a href="">Match Report</a></h4>
+					</div>
+				</div>
+
+
+				<h2>Round 3</h2>
+				<div class="match">
+					<div class="scores">
+						<div class="team1">
+							<h2>DIHVGT</h2>
+						</div>
+						<div class="result">
+							<p><b class="point">X</b> V <b class="point">X</b></p>
+							<p><b>Team</b> by X</p>
+						</div>
+						<div class="team2">
+							<h2>No Bodies</h2>
+						</div>
+					</div>
+
+					<div class="report">
+						<h4><a href="">Match Report</a></h4>
+					</div>
+				</div>
+
+				<div class="match played">
+					<div class="scores">
+						<div class="team1">
+							<h2>U.S.S.R</h2>
+						</div>
+						<div class="result">
+							<p><b class="point">X</b> V <b class="point">X</b></p>
+							<p><b>Team</b> by X</p>
+						</div>
+						<div class="team2">
+							<h2>Team Name</h2>
+						</div>
+					</div>
+
+					<div class="report">
+						<h4><a href="">Match Report</a></h4>
+					</div>
+				</div>
+			</div>
+
+			<div id="b">
+				<h1>9B</h1>
+
+				<h2>Round 1</h2>
+				<div class="match played">
+					<div class="scores">
+						<div class="team1">
+							<h2>Spikers</h2>
+						</div>
+						<div class="result">
+							<p><b class="point">X</b> V <b class="point">X</b></p>
+							<p><b>Team</b> by X</p>
+						</div>
+						<div class="team2">
+							<h2>T34M</h2>
+						</div>
+					</div>
+
+					<div class="report">
+						<h4><a href="">Match Report</a></h4>
+					</div>
+				</div>
+
+				<div class="match played">
+					<div class="scores">
+						<div class="team1">
+							<h2>Corona</h2>
+						</div>
+						<div class="result">
+							<p><b class="point">X</b> V <b class="point">X</b></p>
+							<p><b>Team</b> by X</p>
+						</div>
+						<div class="team2">
+							<h2>Ashwood Athletic</h2>
+						</div>
+					</div>
+
+					<div class="report">
+						<h4><a href="">Match Report</a></h4>
+					</div>
+				</div>
+
+
+				<h2>Round 2</h2>
+				<div class="match played">
+					<div class="scores">
+						<div class="team1">
+							<h2>Ashwood Athletic</h2>
+						</div>
+						<div class="result">
+							<p><b class="point">X</b> V <b class="point">X</b></p>
+							<p><b>Team</b> by X</p>
+						</div>
+						<div class="team2">
+							<h2>Spikers</h2>
+						</div>
+					</div>
+
+					<div class="report">
+						<h4><a href="">Match Report</a></h4>
+					</div>
+				</div>
+
+				<div class="match played">
+					<div class="scores">
+						<div class="team1">
+							<h2>Corona</h2>
+						</div>
+						<div class="result">
+							<p><b class="point">X</b> V <b class="point">X</b></p>
+							<p><b>Team</b> by X</p>
+						</div>
+						<div class="team2">
+							<h2>T34M</h2>
+						</div>
+					</div>
+
+					<div class="report">
+						<h4><a href="">Match Report</a></h4>
+					</div>
+				</div>
+
+
+				<h2>Round 3</h2>
+				<div class="match played">
+					<div class="scores">
+						<div class="team1">
+							<h2>Spikers</h2>
+						</div>
+						<div class="result">
+							<p><b class="point">X</b> V <b class="point">X</b></p>
+							<p><b>Team</b> by X</p>
+						</div>
+						<div class="team2">
+							<h2>Corona</h2>
+						</div>
+					</div>
+
+					<div class="report">
+						<h4><a href="">Match Report</a></h4>
+					</div>
+				</div>
+
+				<div class="match played">
+					<div class="scores">
+						<div class="team1">
+							<h2>Ashwood Athletic</h2>
+						</div>
+						<div class="result">
+							<p><b class="point">X</b> V <b class="point">X</b></p>
+							<p><b>Team</b> by X</p>
+						</div>
+						<div class="team2">
+							<h2>T34M</h2>
+						</div>
+					</div>
+
+					<div class="report">
+						<h4><a href="">Match Report</a></h4>
+					</div>
+				</div>
+			</div>
+
+
+			<div id="c">
+				<h1>9C</h1>
+
+				<h2>Round 1</h2>
+				<div class="match played">
+					<div class="scores">
+						<div class="team1">
+							<h2>Jewels of the East</h2>
+						</div>
+						<div class="result">
+							<p><b class="point">X</b> V <b class="point">X</b></p>
+							<p><b>Team</b> by X</p>
+						</div>
+						<div class="team2">
+							<h2>Good Team</h2>
+						</div>
+					</div>
+
+					<div class="report">
+						<h4><a href="">Match Report</a></h4>
+					</div>
+				</div>
+
+				<div class="match played">
+					<div class="scores">
+						<div class="team1">
+							<h2>Swaggy Doos</h2>
+						</div>
+						<div class="result">
+							<p><b class="point">X</b> V <b class="point">X</b></p>
+							<p><b>Team</b> by X</p>
+						</div>
+						<div class="team2">
+							<h2>Better Team</h2>
+						</div>
+					</div>
+
+					<div class="report">
+						<h4><a href="">Match Report</a></h4>
+					</div>
+				</div>
+
+
+				<h2>Round 2</h2>
+				<div class="match played">
+					<div class="scores">
+						<div class="team1">
+							<h2>Better Team</h2>
+						</div>
+						<div class="result">
+							<p><b class="point">X</b> V <b class="point">X</b></p>
+							<p><b>Team</b> by X</p>
+						</div>
+						<div class="team2">
+							<h2>Jewels of the East</h2>
+						</div>
+					</div>
+
+					<div class="report">
+						<h4><a href="">Match Report</a></h4>
+					</div>
+				</div>
+
+				<div class="match played">
+					<div class="scores">
+						<div class="team1">
+							<h2>Swaggy Doos</h2>
+						</div>
+						<div class="result">
+							<p><b class="point">X</b> V <b class="point">X</b></p>
+							<p><b>Team</b> by X</p>
+						</div>
+						<div class="team2">
+							<h2>Good Team</h2>
+						</div>
+					</div>
+
+					<div class="report">
+						<h4><a href="">Match Report</a></h4>
+					</div>
+				</div>
+
+
+				<h2>Round 3</h2>
+				<div class="match played">
+					<div class="scores">
+						<div class="team1">
+							<h2>Jewels of the East</h2>
+						</div>
+						<div class="result">
+							<p><b class="point">X</b> V <b class="point">X</b></p>
+							<p><b>Team</b> by X</p>
+						</div>
+						<div class="team2">
+							<h2>Swaggy Doos</h2>
+						</div>
+					</div>
+
+					<div class="report">
+						<h4><a href="">Match Report</a></h4>
+					</div>
+				</div>
+
+				<div class="match played">
+					<div class="scores">
+						<div class="team1">
+							<h2>Better Team</h2>
+						</div>
+						<div class="result">
+							<p><b class="point">X</b> V <b class="point">X</b></p>
+							<p><b>Team</b> by X</p>
+						</div>
+						<div class="team2">
+							<h2>Good Team</h2>
+						</div>
+					</div>
+
+					<div class="report">
+						<h4><a href="">Match Report</a></h4>
+					</div>
+				</div>
+			</div>
+
+
+			<div id="z">
+				<h1>9Z</h1>
+
+				<h2>Round 1</h2>
+				<div class="match played">
+					<div class="scores">
+						<div class="team1">
+							<h2>Mungoes</h2>
+						</div>
+						<div class="result">
+							<p><b class="point">X</b> V <b class="point">X</b></p>
+							<p><b>Team</b> by X</p>
+						</div>
+						<div class="team2">
+							<h2>Wet Rat Hunter Hunters</h2>
+						</div>
+					</div>
+
+					<div class="report">
+						<h4><a href="">Match Report</a></h4>
+					</div>
+				</div>
+
+				<div class="match played">
+					<div class="scores">
+						<div class="team1">
+							<h2>Wet Rat Hunters</h2>
+						</div>
+						<div class="result">
+							<p><b class="point">X</b> V <b class="point">X</b></p>
+							<p><b>Team</b> by X</p>
+						</div>
+						<div class="team2">
+							<h2>Tiggies</h2>
+						</div>
+					</div>
+
+					<div class="report">
+						<h4><a href="">Match Report</a></h4>
+					</div>
+				</div>
+
+
+				<h2>Round 2</h2>
+				<div class="match played">
+					<div class="scores">
+						<div class="team1">
+							<h2>Tiggies</h2>
+						</div>
+						<div class="result">
+							<p><b class="point">X</b> V <b class="point">X</b></p>
+							<p><b>Team</b> by X</p>
+						</div>
+						<div class="team2">
+							<h2>Mungoes</h2>
+						</div>
+					</div>
+
+					<div class="report">
+						<h4><a href="">Match Report</a></h4>
+					</div>
+				</div>
+
+				<div class="match played">
+					<div class="scores">
+						<div class="team1">
+							<h2>Wet Rat Hunters</h2>
+						</div>
+						<div class="result">
+							<p><b class="point">X</b> V <b class="point">X</b></p>
+							<p><b>Team</b> by X</p>
+						</div>
+						<div class="team2">
+							<h2>Wet Rat Hunter Hunters</h2>
+						</div>
+					</div>
+
+					<div class="report">
+						<h4><a href="">Match Report</a></h4>
+					</div>
+				</div>
+
+
+				<h2>Round 3</h2>
+				<div class="match played">
+					<div class="scores">
+						<div class="team1">
+							<h2>Mungoes</h2>
+						</div>
+						<div class="result">
+							<p><b class="point">X</b> V <b class="point">X</b></p>
+							<p><b>Team</b> by X</p>
+						</div>
+						<div class="team2">
+							<h2>Wet Rat Hunters</h2>
+						</div>
+					</div>
+
+					<div class="report">
+						<h4><a href="">Match Report</a></h4>
+					</div>
+				</div>
+
+				<div class="match played">
+					<div class="scores">
+						<div class="team1">
+							<h2>Tiggies</h2>
+						</div>
+						<div class="result">
+							<p><b class="point">X</b> V <b class="point">X</b></p>
+							<p><b>Team</b> by X</p>
+						</div>
+						<div class="team2">
+							<h2>Wet Rat Hunter Hunters</h2>
+						</div>
+					</div>
+
+					<div class="report">
+						<h4><a href="">Match Report</a></h4>
+					</div>
+				</div>
+			</div>
+
+		<script type="text/javascript">
+			function show9a() {
+				var button9a = document.getElementById("9abutton");
+				var el9a = document.getElementById("a");
+				var el9b = document.getElementById("b");
+				var el9c = document.getElementById("c");
+				var el9z = document.getElementById("z");
+
+
+				if (document.activeElement === button9a) {
+					el9a.style.display = "block";
+					el9b.style.display = "none";
+					el9c.style.display = "none";
+					el9z.style.display = "none";
+				}
+				else {
+					el9a.style.display = "none";
+					el9b.style.display = "none";
+					el9c.style.display = "none";
+					el9z.style.display = "none";
+				}
+			}
+
+			function show9b() {
+				var button9b = document.getElementById("9bbutton");
+				var el9a = document.getElementById("a");
+				var el9b = document.getElementById("b");
+				var el9c = document.getElementById("c");
+				var el9z = document.getElementById("z");
+
+
+				if (document.activeElement === button9b) {
+					el9a.style.display = "none";
+					el9b.style.display = "block";
+					el9c.style.display = "none";
+					el9z.style.display = "none";
+				}
+				else {
+					el9a.style.display = "none";
+					el9b.style.display = "none";
+					el9c.style.display = "none";
+					el9z.style.display = "none";
+				}
+			}
+
+			function show9c() {
+				var button9c = document.getElementById("9cbutton");
+				var el9a = document.getElementById("a");
+				var el9b = document.getElementById("b");
+				var el9c = document.getElementById("c");
+				var el9z = document.getElementById("z");
+
+
+				if (document.activeElement === button9c) {
+					el9a.style.display = "none";
+					el9b.style.display = "none";
+					el9c.style.display = "block";
+					el9z.style.display = "none";
+				}
+				else {
+					el9a.style.display = "none";
+					el9b.style.display = "none";
+					el9c.style.display = "none";
+					el9z.style.display = "none";
+				}
+			}
+
+			function show9z() {
+				var button9z = document.getElementById("9zbutton");
+				var el9a = document.getElementById("a");
+				var el9b = document.getElementById("b");
+				var el9c = document.getElementById("c");
+				var el9z = document.getElementById("z");
+
+
+				if (document.activeElement === button9z) {
+					el9a.style.display = "none";
+					el9b.style.display = "none";
+					el9c.style.display = "none";
+					el9z.style.display = "block";
+				}
+				else {
+					el9a.style.display = "none";
+					el9b.style.display = "none";
+					el9c.style.display = "none";
+					el9z.style.display = "none";
+				}
+			}
+		</script>
+		</div>
+
+
+		<div id="w4">
+			<h1>Coming soon!</h1>
+		</div>
+		<div id="w5">
+			<h1>Coming soon!</h1>
+		</div>
+
+		<script type="text/javascript">
+			function showw1() {
+				var w1button = document.getElementById("w1button");
+				var w1 = document.getElementById("w1");
+				var w2 = document.getElementById("w2");
+				var w3 = document.getElementById("w3");
+				var w4 = document.getElementById("w4");
+				var w5 = document.getElementById("w5");
+
+
+				if (document.activeElement === w1button) {
+					w1.style.display = "block";
+					w2.style.display = "none";
+					w3.style.display = "none";
+					w4.style.display = "none";
+					w5.style.display = "none";
+				}
+				else {
+					w1.style.display = "none";
+					w2.style.display = "none";
+					w3.style.display = "none";
+					w4.style.display = "none";
+					w5.style.display = "none";
+				}
+			}
+
+			function showw2() {
+				var w2button = document.getElementById("w2button");
+				var w1 = document.getElementById("w1");
+				var w2 = document.getElementById("w2");
+				var w3 = document.getElementById("w3");
+				var w4 = document.getElementById("w4");
+				var w5 = document.getElementById("w5");
+
+
+				if (document.activeElement === w2button) {
+					w1.style.display = "none";
+					w2.style.display = "block";
+					w3.style.display = "none";
+					w4.style.display = "none";
+					w5.style.display = "none";
+				}
+				else {
+					w1.style.display = "none";
+					w2.style.display = "none";
+					w3.style.display = "none";
+					w4.style.display = "none";
+					w5.style.display = "none";
+				}
+			}
+
+			function showw3() {
+				var w3button = document.getElementById("w3button");
+				var w1 = document.getElementById("w1");
+				var w2 = document.getElementById("w2");
+				var w3 = document.getElementById("w3");
+				var w4 = document.getElementById("w4");
+				var w5 = document.getElementById("w5");
+
+
+				if (document.activeElement === w3button) {
+					w1.style.display = "none";
+					w2.style.display = "none";
+					w3.style.display = "block";
+					w4.style.display = "none";
+					w5.style.display = "none";
+				}
+				else {
+					w1.style.display = "none";
+					w2.style.display = "none";
+					w3.style.display = "none";
+					w4.style.display = "none";
+					w5.style.display = "none";
+				}
+			}
+
+			function showw4() {
+				var w4button = document.getElementById("w4button");
+				var w1 = document.getElementById("w1");
+				var w2 = document.getElementById("w2");
+				var w3 = document.getElementById("w3");
+				var w4 = document.getElementById("w4");
+				var w5 = document.getElementById("w5");
+
+
+				if (document.activeElement === w4button) {
+					w1.style.display = "none";
+					w2.style.display = "none";
+					w3.style.display = "none";
+					w4.style.display = "block";
+					w5.style.display = "none";
+				}
+				else {
+					w1.style.display = "none";
+					w2.style.display = "none";
+					w3.style.display = "none";
+					w4.style.display = "none";
+					w5.style.display = "none";
+				}
+			}
+
+			function showw5() {
+				var w5button = document.getElementById("w5button");
+				var w1 = document.getElementById("w1");
+				var w2 = document.getElementById("w2");
+				var w3 = document.getElementById("w3");
+				var w4 = document.getElementById("w4");
+				var w5 = document.getElementById("w5");
+
+
+				if (document.activeElement === w5button) {
+					w1.style.display = "none";
+					w2.style.display = "none";
+					w3.style.display = "none";
+					w4.style.display = "none";
+					w5.style.display = "block";
+				}
+				else {
+					w1.style.display = "none";
+					w2.style.display = "none";
+					w3.style.display = "none";
+					w4.style.display = "none";
+					w5.style.display = "none";
+				}
+			}
+		</script>
 	</main>
 	<!-- MAIN -->
 
