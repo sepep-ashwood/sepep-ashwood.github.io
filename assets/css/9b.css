@@ -181,7 +181,6 @@ main {
 	width:350px;
 	margin:auto;
 	perspective:1000px;
-	cursor:pointer;
 }
 
 .inner-box {
