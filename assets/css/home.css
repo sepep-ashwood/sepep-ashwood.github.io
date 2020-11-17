@@ -160,7 +160,11 @@ header p {
 /* main */
 main {
 	background:snow;
+}
+
+.top {
 	display:flex;
+	justify-content:space-around;
 }
 
 .glide__arrow {
@@ -173,7 +177,6 @@ main {
 	justify-content:center;
 	align-items:center;
 	padding:15px;
-	float:right;
 }
 
 .slider img {
@@ -188,11 +191,39 @@ main {
 	border-radius:20px;
 }
 
+.update {
+	text-align:justify;
+	padding:20px;
+	padding-right:10vw;
+	width:35%;
+}
+
+.update p {
+	font-size:20px;
+}
+
+.update a {
+	font-size:20px;
+	color:#0892d0;
+	text-decoration:none;
+}
+
 .brief-about {
 	width:45%;
 	text-align:justify;
 	padding:20px;
 }
+
+.brief-about p {
+	font-size:20px;
+}
+
+.brief-about a {
+	font-size:20px;
+	color:#0892d0;
+	text-decoration:none;
+}
+
 
 
 /* footer */

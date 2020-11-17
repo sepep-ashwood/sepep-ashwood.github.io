@@ -63,64 +63,46 @@
 
 	<!-- MAIN -->
 	<main>
-		<div class="brief-about">
-			<h1>About</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		</div>
-
-		<div class="slider">
-			<div class="glide">
-				<div class="glide__track" data-glide-el="track">
-				    <ul class="glide__slides">
-				      	<li class="glide__slide"><img src="assets/imgs/about.jpg"></li>
-				      	<li class="glide__slide"><img src="assets/imgs/about2.jpg"></li>
-				      	<li class="glide__slide"><img src="assets/imgs/about3.jpg"></li>
-				      	<li class="glide__slide"><img src="assets/imgs/about4.jpg"></li>
-				      	<li class="glide__slide"><img src="assets/imgs/about5.jpg"></li>
-				      	<li class="glide__slide"><img src="assets/imgs/about6.jpg"></li>
-				    </ul>
+		<div class="top">
+			<div class="slider">
+				<div class="glide">
+					<div class="glide__track" data-glide-el="track">
+					    <ul class="glide__slides">
+					      	<li class="glide__slide"><img src="assets/imgs/about.jpg"></li>
+					      	<li class="glide__slide"><img src="assets/imgs/about2.jpg"></li>
+					      	<li class="glide__slide"><img src="assets/imgs/about3.jpg"></li>
+					      	<li class="glide__slide"><img src="assets/imgs/about4.jpg"></li>
+					      	<li class="glide__slide"><img src="assets/imgs/about5.jpg"></li>
+					      	<li class="glide__slide"><img src="assets/imgs/about6.jpg"></li>
+					    </ul>
+					</div>
 				</div>
+			</div>
+			<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+			<script src="libraries/glide.min.js"></script>
+			<script>
+				const config = {
+					type:"carousel",
+					autoplay:2500,
+					hoverpause:true,
 
-				<!-- <div class="glide__arrows" data-glide-el="controls">
-	    			<button class="glide__arrow glide__arrow--left" data-glide-dir="<"><i class="fas fa-chevron-circle-left"></i></button>
-	    			<button class="glide__arrow glide__arrow--right" data-glide-dir=">"><i class="fas fa-chevron-circle-right"></i></button>
-	  			</div> -->
+				};
+			  	new Glide('.glide', config).mount()
+			</script>
+
+			<div class="update">
+				<h1>Week 3 of SEPEP!</h1>
+				<p>Our last two weeks were all used to train and prepare for the competitive matches! <br>And this is it!</p>
+				<p>This is the week where we have our <strong>intraclass competitions</strong>, meaning we play against teams from the same class.</p>
+				<p>You can find upcoming matches, as well as results and match reports, <a href="matches.html">here!</a></p>
 			</div>
 		</div>
-		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
-		<script src="libraries/glide.min.js"></script>
-		<script>
-			const config = {
-				type:"carousel",
-				autoplay:2500,
-				hoverpause:true,
 
-			};
-		  	new Glide('.glide', config).mount()
-		</script>
+		<!-- <div class="brief-about">
+			<h1>About</h1>
+			<p>SEPEP is constructed around a student centred approach to physical education, where the teachers step down from the 'leaders' of the class and allow their students to take control and collaborate on the roles and responsibilities involved.</p>
+			<a href="about.html">Read more...</a>
+		</div> -->
 
 	</main>
 

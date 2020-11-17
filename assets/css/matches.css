@@ -132,7 +132,7 @@ nav .menu-sub a:hover {
 /* header */
 header {
 	height:100vh;
-	background:linear-gradient(to bottom right, rgba(17, 34, 51, 0.7), rgba(17, 34, 51, 0.7)), url(../imgs/construction.jpg);
+	background:linear-gradient(to bottom right, rgba(17, 34, 51, 0.7), rgba(17, 34, 51, 0.7)), url(../imgs/about12.png);
 	background-size:cover;
 }
 

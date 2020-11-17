@@ -179,6 +179,11 @@ main .about-sections {
 }
 
 
+iframe {
+	float:right;
+}
+
+
 
 /* footer */
 footer {
