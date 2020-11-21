@@ -70,6 +70,7 @@ nav .main-nav a:hover::after {
 }
 
 .logo {
+	content:url("../imgs/Logo_blue background.svg");
 	position:absolute;
 	width:7vh;
 	font-size:2em;
@@ -77,6 +78,10 @@ nav .main-nav a:hover::after {
 	left:2%;
 	top:50%;
 	transform:translateY(-50%);
+}
+
+.nav-scrolled .logo {
+	content:url("../imgs/Logo_white background.svg");
 }
 
 .page-links {

@@ -70,6 +70,7 @@ nav .main-nav a:hover::after {
 }
 
 .logo {
+	content:url("../imgs/Logo_blue background.svg");
 	position:absolute;
 	width:7vh;
 	font-size:2em;
@@ -77,6 +78,10 @@ nav .main-nav a:hover::after {
 	left:2%;
 	top:50%;
 	transform:translateY(-50%);
+}
+
+.nav-scrolled .logo {
+	content:url("../imgs/Logo_white background.svg");
 }
 
 .page-links {
@@ -204,21 +209,23 @@ main {
 	background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../assets/imgs/about2.jpg");
 	background-size:cover;
 	background-repeat:no-repeat;
+	background-position:center;
 }
 .front2 {
-	background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../assets/imgs/replacement-image.png");
-	background-size:contain;
+	background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../assets/imgs/tiggies.jpg");
+	background-size:cover;
 	background-repeat:no-repeat;
 }
 .front3 {
-	background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../assets/imgs/replacement-image.png");
-	background-size:contain;
+	background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../assets/imgs/wet-rat-hunters.jpg");
+	background-size:cover;
 	background-repeat:no-repeat;
 }
 .front4 {
-	background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../assets/imgs/replacement-image.png");
-	background-size:contain;
+	background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../assets/imgs/wet-rat-hunter-hunters.jpg");
 	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
 }
 
 main span {
